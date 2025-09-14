@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payment/core/widgets/custom_app_bar.dart';
 import 'package:payment/features/checkout/presentation/views/widgets/thank_you_view_body.dart';
 
 class ThankYouView extends StatelessWidget {
@@ -7,7 +8,10 @@ class ThankYouView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ThankYouViewBody(),
+      appBar: buildAppBar(),
+      body: Transform.translate(
+        offset: Offset(0, -16),
+        child: ThankYouViewBody()),
     );
   }
 }
