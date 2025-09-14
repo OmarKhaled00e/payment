@@ -14,13 +14,12 @@ class CustomButton extends StatelessWidget {
         height: 60,
         decoration: ShapeDecoration(
           color: Color(0xFF34A853),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+          ),
         ),
-        child: Text(
-          text,
-          textAlign: TextAlign.center,
-          style: Styles.style22,
-        ),
+        alignment: Alignment.center,
+        child: Text(text, style: Styles.style22),
       ),
     );
   }

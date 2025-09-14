@@ -22,7 +22,6 @@ class MyCartViewBody extends StatelessWidget {
           OrderInfoItem(title: 'Discount', value: r'0$'),
           Gap(3),
           OrderInfoItem(title: 'Shipping', value: r'8$'),
-
           Divider(height: 34, thickness: 2, color: Color(0xffC7C7C7)),
           TotalPrice(title: 'Tatal', value: r'$50.93'),
           Gap(16),
@@ -36,7 +35,6 @@ class MyCartViewBody extends StatelessWidget {
               //     },
               //   ),
               // );
-
               showModalBottomSheet(
                 context: context,
                 shape: RoundedRectangleBorder(
