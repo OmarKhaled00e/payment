@@ -5,7 +5,6 @@ import 'package:meta/meta.dart';
 import 'package:payment/features/checkout/data/models/payment_intent_input_model.dart';
 import 'package:payment/features/checkout/data/repos/checkout_repo.dart';
 
-
 part 'payment_state.dart';
 
 class PaymentCubit extends Cubit<PaymentState> {
