@@ -7,6 +7,10 @@ AppBar buildAppBar({final String? title}) {
     elevation: 0,
     backgroundColor: Colors.transparent,
     centerTitle: true,
-    title: Text(title ?? '', textAlign: TextAlign.center, style: Styles.style25),
+    title: Text(
+      title ?? '',
+      textAlign: TextAlign.center,
+      style: Styles.style25,
+    ),
   );
 }

@@ -30,16 +30,9 @@ class ThankYouViewBody extends StatelessWidget {
             bottom: MediaQuery.sizeOf(context).height * 2,
             child: CircleAvatar(backgroundColor: Colors.white),
           ),
-          Positioned(
-            left: 0,
-            right: 0,
-            top: -20,
-            child: CustomCheckIcon(),
-          ),
+          Positioned(left: 0, right: 0, top: -20, child: CustomCheckIcon()),
         ],
       ),
     );
   }
 }
-
-
