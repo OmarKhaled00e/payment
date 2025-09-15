@@ -8,7 +8,7 @@ class CheckoutRepoImpl extends CheckoutRepo {
   final StripeService stripeService = StripeService();
   @override
   Future<Either<Failure, void>> makePayment({
-    required PaymentIntetInputModel paymentIntetInputModel,
+    required PaymentIntentInputModel paymentIntetInputModel,
   }) async {
     try {
       await stripeService.makePayment(

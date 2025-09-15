@@ -4,6 +4,6 @@ import 'package:payment/features/checkout/data/models/payment_intent_input_model
 
 abstract class CheckoutRepo {
   Future<Either<Failure, void>> makePayment({
-    required PaymentIntetInputModel paymentIntetInputModel,
+    required PaymentIntentInputModel paymentIntetInputModel,
   });
 }
